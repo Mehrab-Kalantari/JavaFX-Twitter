@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import java.lang.*?>
+<?import javafx.scene.image.*?>
+
+
+<AnchorPane fx:controller="controllers.TweetPropertiesController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="424.0" prefWidth="291.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#eb4a4a" height="416.0" layoutX="4.0" layoutY="4.0" stroke="BLACK" strokeType="INSIDE" width="283.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Label alignment="TOP_CENTER" layoutX="69.0" layoutY="-3.0" prefHeight="39.0" prefWidth="150.0" text="Date :" textFill="WHITE">
+         <effect>
+            <Bloom />
+         </effect>
+         <font>
+            <Font name="BlackChancery" size="35.0" />
+         </font>
+      </Label>
+      <Label fx:id="dateLBL" alignment="TOP_CENTER" layoutX="71.0" layoutY="57.0" prefHeight="41.0" prefWidth="150.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="71.0" layoutY="122.0" prefHeight="55.0" prefWidth="150.0" text="Time :" textFill="WHITE">
+         <font>
+            <Font name="BlackChancery" size="35.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label fx:id="timeLBL" alignment="TOP_CENTER" layoutX="66.0" layoutY="181.0" prefHeight="41.0" prefWidth="157.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" layoutX="69.0" layoutY="240.0" prefHeight="55.0" prefWidth="150.0" text="Likes :" textFill="WHITE">
+         <font>
+            <Font name="BlackChancery" size="35.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label fx:id="likeLBL" alignment="TOP_CENTER" layoutX="71.0" layoutY="301.0" prefHeight="41.0" prefWidth="150.0" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="20.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="101.0" layoutY="377.0" onAction="#closeAction" prefHeight="33.0" prefWidth="87.0" style="-fx-background-color: white; -fx-background-radius: 20;" text="close" textFill="#ff3535">
+         <font>
+            <Font name="System Bold Italic" size="15.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXButton>
+   </children>
+</AnchorPane>

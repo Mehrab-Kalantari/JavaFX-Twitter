@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.control.*?>
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="816.0" prefWidth="641.0" style="-fx-background-color: #e71b1b;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.FollowersController">
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="WHITE" height="716.0" layoutX="16.0" layoutY="85.0" stroke="BLACK" strokeType="INSIDE" width="610.0">
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <JFXListView fx:id="list" layoutX="19.0" layoutY="90.0" prefHeight="637.0" prefWidth="604.0" />
+      <Label alignment="CENTER" layoutX="140.0" layoutY="-17.0" prefHeight="100.0" prefWidth="361.0" text="Followers" textFill="WHITE">
+         <effect>
+            <Bloom />
+         </effect>
+         <font>
+            <Font name="BlackChancery" size="65.0" />
+         </font>
+      </Label>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="483.0" layoutY="738.0" onAction="#menuAction" prefHeight="48.0" prefWidth="137.0" style="-fx-background-color: red; -fx-background-radius: 20;" text="Menu" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+   </children>
+</AnchorPane>

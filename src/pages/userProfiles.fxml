@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane fx:controller="controllers.UserProfileController" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="664.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" >
+   <effect>
+      <DropShadow />
+   </effect>
+   <children>
+      <AnchorPane layoutX="6.0" layoutY="8.0" prefHeight="192.0" prefWidth="587.0" style="-fx-background-color: #ff7070;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <Label alignment="TOP_CENTER" layoutX="202.0" layoutY="-15.0" prefHeight="96.0" prefWidth="183.0" text="Profile" textFill="WHITE">
+               <font>
+                  <Font name="Blackadder ITC" size="62.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+      <AnchorPane layoutX="136.0" layoutY="99.0" prefHeight="502.0" prefWidth="328.0" style="-fx-background-color: white;">
+         <effect>
+            <DropShadow />
+         </effect>
+         <children>
+            <ImageView fitHeight="84.0" fitWidth="84.0" layoutX="7.0" layoutY="17.0">
+               <image>
+                  <Image url="@../pics/userProfile.png" />
+               </image>
+               <effect>
+                  <Bloom />
+               </effect>
+            </ImageView>
+            <Label fx:id="NameLable" layoutX="99.0" layoutY="25.0" prefHeight="84.0" prefWidth="228.0">
+               <font>
+                  <Font name="System Italic" size="19.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+            <JFXButton buttonType="RAISED" layoutX="5.0" layoutY="394.0" onAction="#TweetsAction" prefHeight="40.0" prefWidth="319.0" style="-fx-background-color: #ff7070; -fx-background-radius: 5;" text="Tweets" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <JFXButton buttonType="RAISED" layoutX="5.0" layoutY="451.0" onAction="#backAction" prefHeight="45.0" prefWidth="319.0" style="-fx-background-color: #ff7070; -fx-background-radius: 5;" text="Back" textFill="WHITE">
+               <font>
+                  <Font name="System Bold Italic" size="21.0" />
+               </font>
+               <effect>
+                  <DropShadow />
+               </effect>
+            </JFXButton>
+            <Label fx:id="saveLBL" alignment="TOP_CENTER" layoutX="100.0" layoutY="354.0" prefHeight="33.0" prefWidth="128.0" textFill="#ff7070">
+               <font>
+                  <Font name="System Italic" size="16.0" />
+               </font>
+            </Label>
+            <Label fx:id="bioLBL" alignment="TOP_CENTER" layoutX="16.0" layoutY="129.0" prefHeight="185.0" prefWidth="296.0" textFill="RED">
+               <font>
+                  <Font name="System Italic" size="15.0" />
+               </font>
+               <effect>
+                  <Bloom />
+               </effect>
+            </Label>
+         </children>
+      </AnchorPane>
+   </children>
+</AnchorPane>

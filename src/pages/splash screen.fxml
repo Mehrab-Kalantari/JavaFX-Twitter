@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="748.0" prefWidth="611.0" style="-fx-background-color: #f14d4d;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.SplashScreenController">
+   <children>
+      <ImageView fitHeight="314.0" fitWidth="314.0" layoutX="149.0" layoutY="217.0">
+         <image>
+            <Image url="@../pics/tutu.png" />
+         </image>
+         <effect>
+            <Bloom />
+         </effect>
+      </ImageView>
+   </children>
+</AnchorPane>

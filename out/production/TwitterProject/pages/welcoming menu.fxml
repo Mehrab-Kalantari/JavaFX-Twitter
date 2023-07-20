@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.effect.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.shape.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane fx:id="welcomingMenu" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="748.0" prefWidth="611.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.WelcomingController">
+   <children>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ff4040" height="735.0" layoutX="9.0" layoutY="7.0" strokeType="INSIDE" strokeWidth="5.0" width="593.0" AnchorPane.bottomAnchor="6.0" AnchorPane.leftAnchor="9.0" AnchorPane.rightAnchor="9.0" AnchorPane.topAnchor="7.0">
+         <stroke>
+            <LinearGradient endX="1.0" endY="1.0">
+               <stops>
+                  <Stop color="BLACK" />
+                  <Stop color="BLACK" offset="1.0" />
+               </stops>
+            </LinearGradient>
+         </stroke>
+         <effect>
+            <DropShadow />
+         </effect>
+      </Rectangle>
+      <Label alignment="TOP_CENTER" contentDisplay="CENTER" layoutX="13.0" layoutY="27.0" prefHeight="103.0" prefWidth="578.0" text="welcome to" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="83.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="4.0" layoutY="145.0" prefHeight="187.0" prefWidth="593.0" text="Twitter" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Forte" size="170.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <Label alignment="CENTER" contentDisplay="CENTER" layoutX="2.0" layoutY="439.0" prefHeight="21.0" prefWidth="593.0" text="hope you enjoy it" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="Cooper Black" size="26.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <ImageView fitHeight="176.0" fitWidth="176.0" layoutX="435.0" layoutY="287.0">
+         <image>
+            <Image url="@../pics/tutu.png" />
+         </image>
+         <effect>
+            <Bloom />
+         </effect>
+      </ImageView>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="85.0" layoutY="569.0" onAction="#startAction" prefHeight="69.0" prefWidth="442.0" ripplerFill="BLACK" style="-fx-background-color: white;" text="Start">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+         <effect>
+            <Bloom threshold="0.0" />
+         </effect>
+      </JFXButton>
+      <JFXButton alignment="CENTER" buttonType="RAISED" layoutX="85.0" layoutY="653.0" onAction="#exitAction" prefHeight="69.0" prefWidth="442.0" style="-fx-background-color: white;" text="Exit">
+         <font>
+            <Font name="System Bold Italic" size="25.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </JFXButton>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>

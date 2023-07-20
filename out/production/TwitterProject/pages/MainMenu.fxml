@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="632.0" prefWidth="675.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+   <children>
+      <ImageView fitHeight="632.0" fitWidth="675.0">
+         <image>
+            <Image url="@../pics/redBack.jpg" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="191.0" layoutY="-10.0" prefHeight="74.0" prefWidth="292.0" text="Menu" textFill="WHITE">
+         <font>
+            <Font name="Blackadder ITC" size="72.0" />
+         </font>
+         <effect>
+            <Bloom />
+         </effect>
+      </Label>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="122.0" onAction="#myProfileAction" prefHeight="46.0" prefWidth="214.0" ripplerFill="BLACK" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="My Profile" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="491.0" onAction="#logOutAction" prefHeight="48.0" prefWidth="214.0" ripplerFill="BLACK" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="LogOut" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="554.0" onAction="#exitAcion" prefHeight="48.0" prefWidth="214.0" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="Exit" textFill="WHITE">
+         <effect>
+            <DropShadow />
+         </effect>
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="247.0" onAction="#myTweetsAction" prefHeight="48.0" prefWidth="214.0" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="My Tweets" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="185.0" onAction="#newTweetAction" prefHeight="48.0" prefWidth="214.0" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="New Tweet" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="308.0" onAction="#followersAction" prefHeight="48.0" prefWidth="214.0" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="Followers" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="369.0" onAction="#followingAction" prefHeight="48.0" prefWidth="214.0" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="Following" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+      <JFXButton buttonType="RAISED" layoutX="191.0" layoutY="431.0" onAction="#timeLineAction" prefHeight="48.0" prefWidth="214.0" style="-fx-background-color: #e71b1b; -fx-background-radius: 20;" text="TimeLine" textFill="WHITE">
+         <font>
+            <Font name="System Bold Italic" size="22.0" />
+         </font>
+         <effect>
+            <DropShadow />
+         </effect>
+      </JFXButton>
+   </children>
+   <effect>
+      <DropShadow />
+   </effect>
+</AnchorPane>
